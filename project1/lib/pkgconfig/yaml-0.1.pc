@@ -1,0 +1,10 @@
+prefix=/Users/samir/Library/CloudStorage/OneDrive-Personal/Desktop/SAMIR/Machine Learning/Complete Machine Learning & Data Science Bootcamp 2023/heart-disease-project/project1
+exec_prefix=${prefix}
+includedir=${prefix}/include
+libdir=${exec_prefix}/lib
+
+Name: LibYAML
+Description: Library to parse and emit YAML
+Version: 0.2.5
+Cflags: -I${includedir}
+Libs: -L${libdir} -lyaml

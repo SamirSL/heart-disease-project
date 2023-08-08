@@ -1,0 +1,14 @@
+prefix=/Users/samir/Library/CloudStorage/OneDrive-Personal/Desktop/SAMIR/Machine Learning/Complete Machine Learning & Data Science Bootcamp 2023/heart-disease-project/project1
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include
+vendor=MIT
+
+defccname=KCM:
+defktname=FILE:/etc/krb5.keytab
+defcktname=FILE:/Users/ktietz/demo/mc3/var/krb5/user/%{euid}/client.keytab
+
+Name: krb5
+Description: An implementation of Kerberos network authentication
+Version: 1.20.1
+Requires: mit-krb5

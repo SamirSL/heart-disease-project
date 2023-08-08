@@ -1,0 +1,12 @@
+prefix=/Users/samir/Library/CloudStorage/OneDrive-Personal/Desktop/SAMIR/Machine Learning/Complete Machine Learning & Data Science Bootcamp 2023/heart-disease-project/project1
+exec_prefix=${prefix}
+libdir=${prefix}/lib
+includedir=${prefix}/include/nss
+
+Name: NSS
+Description: Network Security Services
+Version: 3.89.1
+Requires: nspr >= 4.27
+Libs: -L${prefix}/lib -lnss3 -lnssutil3 -lsmime3 -lssl3 -lsoftokn3
+Cflags: -I${includedir}
+

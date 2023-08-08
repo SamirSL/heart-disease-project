@@ -1,0 +1,35 @@
+{
+  "build": "py311hca03da5_0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/main/osx-arm64",
+  "constrains": [],
+  "depends": [
+    "llvm-openmp >=14.0.6",
+    "py-xgboost 1.7.3 py311hca03da5_0",
+    "python >=3.11,<3.12.0a0"
+  ],
+  "extracted_package_dir": "/opt/homebrew/Caskroom/miniconda/base/pkgs/xgboost-1.7.3-py311hca03da5_0",
+  "files": [],
+  "fn": "xgboost-1.7.3-py311hca03da5_0.conda",
+  "legacy_bz2_md5": "95655b254d88253acc05da31ea013734",
+  "license": "Apache-2.0",
+  "license_family": "Apache",
+  "link": {
+    "source": "/opt/homebrew/Caskroom/miniconda/base/pkgs/xgboost-1.7.3-py311hca03da5_0",
+    "type": 1
+  },
+  "md5": "23890bfadb9deade295000ea88175dfe",
+  "name": "xgboost",
+  "package_tarball_full_path": "/opt/homebrew/Caskroom/miniconda/base/pkgs/xgboost-1.7.3-py311hca03da5_0.conda",
+  "paths_data": {
+    "paths": [],
+    "paths_version": 1
+  },
+  "requested_spec": "xgboost",
+  "sha256": "a83e496994e631d659fad3e69338d2b3c82c75d120cc2654473c3d1315610fa3",
+  "size": 14034,
+  "subdir": "osx-arm64",
+  "timestamp": 1677964431913,
+  "url": "https://repo.anaconda.com/pkgs/main/osx-arm64/xgboost-1.7.3-py311hca03da5_0.conda",
+  "version": "1.7.3"
+}

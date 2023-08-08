@@ -1,0 +1,13 @@
+prefix=/Users/samir/Library/CloudStorage/OneDrive-Personal/Desktop/SAMIR/Machine Learning/Complete Machine Learning & Data Science Bootcamp 2023/heart-disease-project/project1
+exec_prefix=${prefix}
+libdir=${prefix}/lib
+includedir=${prefix}/include/qt
+
+
+Name: Qt5 QmlModels
+Description: Qt QmlModels module
+Version: 5.15.2
+Libs: -L${libdir} -lQt5QmlModels 
+Cflags: -DQT_QMLMODELS_LIB -I${includedir}/QtQmlModels -I${includedir}
+Requires: Qt5Core Qt5Qml
+

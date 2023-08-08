@@ -1,0 +1,7 @@
+
+Name: Qt5WebKitWidgets
+Description: Qt WebKitWidgets module
+Version: 5.212.0
+Libs: -L/Users/samir/Library/CloudStorage/OneDrive-Personal/Desktop/SAMIR/Machine Learning/Complete Machine Learning & Data Science Bootcamp 2023/heart-disease-project/project1/lib -lQt5WebKitWidgets
+Cflags: -I/Users/samir/Library/CloudStorage/OneDrive-Personal/Desktop/SAMIR/Machine Learning/Complete Machine Learning & Data Science Bootcamp 2023/heart-disease-project/project1/include/qt/QtWebKitWidgets 
+Requires: Qt5Core Qt5Gui Qt5Network Qt5Multimedia Qt5Widgets Qt5WebKit Qt5MultimediaWidgets

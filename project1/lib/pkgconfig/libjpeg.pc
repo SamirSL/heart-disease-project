@@ -1,0 +1,10 @@
+prefix=/Users/samir/Library/CloudStorage/OneDrive-Personal/Desktop/SAMIR/Machine Learning/Complete Machine Learning & Data Science Bootcamp 2023/heart-disease-project/project1
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include
+
+Name: libjpeg
+Description: Reads and writes JPEG files
+Version: 9.5.0
+Libs: -L${libdir} -ljpeg
+Cflags: -I${includedir}
